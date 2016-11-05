@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout的混合布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+		<TextView 
+			android:text="Red"
+			android:background="#aa0000"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+		/>
+		<TextView 
+			android:text="Green"
+			android:background="#00aa00"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+		/>
+		<TextView 
+			android:text="Blue"
+			android:background="#0000aa"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+		/>
+		<TextView 
+			android:text="Yellow"
+			android:background="#aaaa00"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+		/>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:stretchColumns="1">
+
+			<TableRow>
+				<TextView android:text="row1_colunm1" android:padding="3dip" />
+				<TextView android:text="row1_colunm2" android:gravity="right" android:padding="3dip"/>
+				<TextView android:text="第三" android:gravity="top"
+					android:padding="3dip" />
+			</TableRow>
+			<TableRow>
+				<TextView android:text="row2_colunm1" android:padding="3dip" />
+				<TextView android:text="row2_colunm2" android:gravity="right"
+					android:padding="3dip" />
+			</TableRow>
+		</TableLayout>
+
+	</LinearLayout>
+</LinearLayout>

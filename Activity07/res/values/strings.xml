@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">CheckBoxDemo</string>
+    <string name="app_name">CheckBoxDemo</string>
+    <string name="female">男</string>
+    <string name="male">女</string>
+</resources>

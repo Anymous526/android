@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloActivity!第一次</string>
+    <string name="app_name">helloworld</string>
+    <string name="abc">abc</string>
+</resources>

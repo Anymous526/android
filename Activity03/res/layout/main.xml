@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText
+    	android:id="@+id/factorOne"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="请输入 第一个数"
+    	android:numeric="integer"
+    />
+<TextView  
+	android:id="@+id/symbol"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+     <EditText
+    	android:id="@+id/factorTwo"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="请输入 第二个数"
+    	android:phoneNumber="true"
+    />
+    <Button
+    	android:id="@+id/calculate"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"    
+    	/>
+    	
+</LinearLayout>

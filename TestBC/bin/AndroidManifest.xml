@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="kevin.BC"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="4" />
+	<uses-permission  android:name="android.permission.RECEIVE_SMS"/>
+	
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".TestBCActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<!-- 注册一个BorderReceives -->
+		  <receiver android:name=".TestReceiver">
+			<!-- 当接受到action.EDIT的广播时 调用决.TextReceives -->
+			<intent-filter>
+				<action android:name="android.intent.action.EDIT"/>
+			</intent-filter>
+		</receiver>
+		
+		
+    </application>
+</manifest>

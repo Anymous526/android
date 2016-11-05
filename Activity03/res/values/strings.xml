@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, activity03!</string>
+    <string name="app_name">activity03</string>
+    <string name="symbol">乘以</string>
+    <string name="calculate">计算</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+</resources>
+

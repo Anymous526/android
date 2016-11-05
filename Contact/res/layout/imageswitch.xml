@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<Gallery
+		android:id="@+id/img_gallery"
+		android:layout_width="fill_parent"
+		android:layout_height="110px"
+		android:layout_marginTop="10px"
+		android:layout_alignParentLeft="true"
+	></Gallery>
+	<ImageSwitcher
+		android:id="@+id/img_swithcer"
+		android:layout_width="90px"
+		android:layout_height="90px"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignBottom="@+id/img_gallery"
+	></ImageSwitcher>
+</RelativeLayout>

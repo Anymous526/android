@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LayoutDemo!</string>
+    <string name="app_name">LayoutDemo</string>
+     <string name="row1_colunm1">First</string>
+    <string name="row1_colunm2">Second</string>
+    <string name="row2_colunm1">Third</string>
+    <string name="row2_colunm2">Fourth</string>
+</resources>
